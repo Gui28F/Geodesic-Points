@@ -8,14 +8,7 @@ const MAP_CENTRE =
 
 
 /* GLOBAL VARIABLES */
-
 let map = null;
-
-
-/* USEFUL FUNCTIONS */
-
-
-
 
 document.body.onload = function () {
     map = new Map(MAP_CENTRE, 12);
