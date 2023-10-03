@@ -30,8 +30,7 @@ const MAP_ATTRIBUTION =
 	'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> '
 	+ 'contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>';
 const MAP_URL =
-	'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token='
-	+ 'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw'
+	'https://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x={x}&y={y}&z={z}'
 const MAP_ERROR =
 	"https://upload.wikimedia.org/wikipedia/commons/e/e0/SNice.svg";
 const MAP_LAYERS =
